@@ -1,25 +1,14 @@
 # **Finding Lane Lines on the Road** 
 
-## Writeup Template
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
-
 ---
 
 **Finding Lane Lines on the Road**
 
 The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
-* Reflect on your work in a written report
-
-
-[//]: # (Image References)
-
-[image1]: ./examples/grayscale.jpg "Grayscale"
+* Reflect on the work in a written report
 
 ---
-
-### Reflection
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
@@ -27,6 +16,7 @@ My pipeline consisted of 5 steps, which follows the procedures learned from the 
 
 The example results from the pipeline are:
 ![alt text](./test_images_output/solidYellowCurve.jpg "Example1")
+
 ![alt text](./test_images_output/whiteCarLineSwitch.jpg "Example2")
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function in the following way:
